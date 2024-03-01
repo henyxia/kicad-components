@@ -52,30 +52,6 @@
 		(symbol "TE_Conn_-_640456-5_0_1"
 			(polyline
 				(pts
-					(xy 15.24 1.27) (xy 22.86 1.27)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 16.51) (xy 15.24 1.27)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 20.32 3.81) (xy 17.78 3.81)
 				)
 				(stroke
@@ -254,32 +230,19 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 22.86 1.27) (xy 22.86 16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.86 16.51) (xy 15.24 16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "TE_Conn_-_640456-5_1_1"
+			(rectangle
+				(start 15.24 16.51)
+				(end 22.86 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
 				(at 10.16 13.97 0)
 				(length 5.08)
