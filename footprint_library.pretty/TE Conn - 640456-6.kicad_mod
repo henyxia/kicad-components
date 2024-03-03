@@ -1,4 +1,4 @@
-(footprint "TE Conn - 640456-5"
+(footprint "TE Conn - 640456-6"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "TE Conn - 640456-5"
+	(property "Value" "TE Conn - 640456-6"
 		(at 6.985 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -89,7 +89,7 @@
 	)
 	(fp_line
 		(start 0 0)
-		(end 15.24 0)
+		(end 17.78 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -118,7 +118,7 @@
 		(uuid "50419e03-c839-465a-bae2-e9648bb57557")
 	)
 	(fp_line
-		(start 15.24 -8.255)
+		(start 17.78 -8.255)
 		(end 9.525 -8.255)
 		(stroke
 			(width 0.1)
@@ -128,8 +128,8 @@
 		(uuid "f6b2846d-a155-450b-845f-4a13590e9cd0")
 	)
 	(fp_line
-		(start 15.24 0)
-		(end 15.24 -8.255)
+		(start 17.78 0)
+		(end 17.78 -8.255)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -139,7 +139,7 @@
 	)
 	(fp_rect
 		(start 1.27 -6.985)
-		(end 13.97 -6.35)
+		(end 16.51 -6.35)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -150,7 +150,7 @@
 	)
 	(fp_rect
 		(start 1.27 -6.985)
-		(end 13.97 -1.27)
+		(end 16.51 -1.27)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -210,5 +210,13 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1d240201-8710-47d3-b794-6082bc70338f")
+	)
+	(pad "6" thru_hole circle
+		(at 15.24 -3.81)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cae9e123-2899-412f-b296-415330499e53")
 	)
 )
